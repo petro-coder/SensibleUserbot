@@ -19,9 +19,9 @@ PREV_REPLY_MESSAGE = {}
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
-CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n`THIS IS ILLEGAL AND REGARDED AS A CRIME`"
+CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n`THIS IS ILLEGAL AND REGARDED AS A CRIME AND YOU CAN ONLY REACH HIM THROUGH @TGstarlabsbot`"
 USER_BOT_WARN_ZERO = "`  You Have Been Blocked Due To Spamming Of My Masters Inbox.` "
-USER_BOT_NO_WARN = ("`Hello Ser ! This is` **Sensible Userbot**\n"
+USER_BOT_NO_WARN = ("`Hello Ser ! This is` **Brainiac userbot**\n"
                     "`Private Messaging Security Protocol ⚠️`\n\n"
                     "**Welcome Sir This Is My Master\n"
                     f"{DEFAULTUSER}'s Inbox**\n\n"
