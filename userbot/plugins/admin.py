@@ -143,7 +143,7 @@ async def promote(promt):
     try:
         await promt.client(
             EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Promoted Successfully! Now gib Party 🥳`")
+        await promt.edit("`Promoted Successfully! He will sleep with his shoes today🥳`")
 
     # If Telethon spit BadRequestError, assume
     # we don't have Promote permission
